@@ -38,7 +38,7 @@ else
                     <Template>
                         @{
                             var url = (context as ShortUrlEntity);
-                            <a href="https://@url.ShortUrl" target="blank">@url.RowKey</a>
+                            <a href="@url.ShortUrl" target="blank">@url.RowKey</a>
                         }
                     </Template>
                 </GridColumn>
